@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Web tests">
+    <test name="Candidate feature">
+        <classes>
+            <class name="tests.CreateNewCandidate"></class>
+        </classes>
+    </test>
+
+    <test name="Vacancy feature">
+        <classes>
+            <class name="tests.CreateNewVacancy"></class>
+        </classes>
+    </test>
+</suite>
+
