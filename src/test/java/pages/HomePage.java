@@ -2,7 +2,7 @@ package pages;
 
 import org.openqa.selenium.WebDriver;
 
-public class HomePage {
+public class HomePage extends GenericWebPage{
 
     private WebDriver driver;
 

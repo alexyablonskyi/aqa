@@ -1,0 +1,11 @@
+data/CandidateDataProvider.class
+pages/GenericWebPage.class
+tests/GenericWebTest.class
+tests/CreateNewCandidate.class
+data/Constant.class
+pages/CandidatePage.class
+pages/HomePage.class
+data/CandidateData.class
+pages/AddNewCandidatePage.class
+pages/LoginPage.class
+tests/CreateNewVacancy.class

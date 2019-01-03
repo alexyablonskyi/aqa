@@ -1,5 +1,6 @@
 package pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class LoginPage extends  GenericWebPage{
+public class LoginPage{
     private WebDriver driver;
 
     @FindBy(id = "txtUsername")
@@ -48,7 +49,7 @@ public class LoginPage extends  GenericWebPage{
         return this;
     }
 
-
+    @Step("Login as")
     public HomePage loginAs(String username, String password){
         fillForm(username, password);
         return new HomePage(driver);
